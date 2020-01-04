@@ -79,17 +79,19 @@
 
 
 
-<meta name="description" content="框架">
+<meta name="description" content="基本概念术语现实世界中，很多数据都是按层次存在的，如一个国家的行政划分，或者家族图谱等节点（node）:树中的元素路径（path）:从一个节点沿着树中的边可以到达另一个节点，则成这两个节点间存在一条路径双亲：若一个节点有子树，那么该节点是子树跟的双亲兄弟:有相同双亲的节点直接互为兄弟后裔:一个结点的所有子树上的所有节点都是该节点的后裔祖先:从根结点到某节点的路径上的所有节点都是该节点的祖先度:节点">
 <meta property="og:type" content="article">
 <meta property="og:title" content="数据结构(一)树">
 <meta property="og:url" content="http://washcutblow.com/datastruct_tree/index.html">
 <meta property="og:site_name" content="不会游泳的脚鸟">
-<meta property="og:description" content="框架">
+<meta property="og:description" content="基本概念术语现实世界中，很多数据都是按层次存在的，如一个国家的行政划分，或者家族图谱等节点（node）:树中的元素路径（path）:从一个节点沿着树中的边可以到达另一个节点，则成这两个节点间存在一条路径双亲：若一个节点有子树，那么该节点是子树跟的双亲兄弟:有相同双亲的节点直接互为兄弟后裔:一个结点的所有子树上的所有节点都是该节点的后裔祖先:从根结点到某节点的路径上的所有节点都是该节点的祖先度:节点">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-01-04T02:44:29.290Z">
+<meta property="og:image" content="http://washcutblow.com/images/pasted-2.png">
+<meta property="og:updated_time" content="2020-01-04T03:18:41.530Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="数据结构(一)树">
-<meta name="twitter:description" content="框架">
+<meta name="twitter:description" content="基本概念术语现实世界中，很多数据都是按层次存在的，如一个国家的行政划分，或者家族图谱等节点（node）:树中的元素路径（path）:从一个节点沿着树中的边可以到达另一个节点，则成这两个节点间存在一条路径双亲：若一个节点有子树，那么该节点是子树跟的双亲兄弟:有相同双亲的节点直接互为兄弟后裔:一个结点的所有子树上的所有节点都是该节点的后裔祖先:从根结点到某节点的路径上的所有节点都是该节点的祖先度:节点">
+<meta name="twitter:image" content="http://washcutblow.com/images/pasted-2.png">
 
 
 
@@ -362,7 +364,7 @@
       
 
       
-        <p>框架 </p>
+        <h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h1><h2 id="术语"><a href="#术语" class="headerlink" title="术语"></a>术语</h2><p>现实世界中，很多数据都是按层次存在的，如一个国家的行政划分，或者家族图谱等<br><img src="/images/pasted-2.png" alt="1.1"><br><strong>节点（node）</strong>:树中的元素<br><strong>路径（path）</strong>:从一个节点沿着树中的边可以到达另一个节点，则成这两个节点间存在一条路径<br><strong>双亲</strong>：若一个节点有子树，那么该节点是子树跟的双亲<br><strong>兄弟</strong>:有相同双亲的节点直接互为兄弟<br><strong>后裔</strong>:一个结点的所有子树上的所有节点都是该节点的后裔<br><strong>祖先</strong>:从根结点到某节点的路径上的所有节点都是该节点的祖先<br><strong>度</strong>:节点拥有的子树数<br><strong>叶子</strong>:度为0的节点，其余节点为<strong>分支节点</strong><br>根节点的<strong>层次</strong>为1，其余节点的层次=该节点的双亲节点的层次+1，数中结点的最大层次称为数的<strong>高度</strong><br>树中节点的各子树之间次序不分先后，可以交换位置，则称这样的树为<strong>无序树</strong>，否则为<strong>有序树</strong><br>书的集合为<strong>森林</strong></p>
 
       
     </div>
@@ -496,8 +498,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -557,6 +568,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#基本概念"><span class="nav-number">1.</span> <span class="nav-text">基本概念</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#术语"><span class="nav-number">1.1.</span> <span class="nav-text">术语</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
